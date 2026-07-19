@@ -1,0 +1,141 @@
+{
+    "fontName": "FM-Abhaya",
+    "version": "1.0",
+    "description": "Character mapping for FM-Abhaya Sinhala legacy font. This maps keyboard keys to their Sinhala character types as rendered by the FM-Abhaya font. IMPORTANT: Edit this file to match your specific FM-Abhaya font version. Use macOS Font Book or Character Viewer to verify the exact key-to-glyph mapping for your installed font.",
+    "characters": [
+        {"key": "k", "type": "consonant", "sinhalaName": "ka", "description": "ක - Alpapraana Kantaja (ka)"},
+        {"key": "K", "type": "consonant", "sinhalaName": "kha", "description": "ඛ - Mahapraana Kantaja (kha)"},
+        {"key": "g", "type": "consonant", "sinhalaName": "ga", "description": "ග - Alpapraana Kantaja (ga)"},
+        {"key": "G", "type": "consonant", "sinhalaName": "gha", "description": "ඝ - Mahapraana Kantaja (gha)"},
+        {"key": "X", "type": "consonant", "sinhalaName": "ngha", "description": "ඞ - Kantaja Naasikya (ngha)"},
+        {"key": "c", "type": "consonant", "sinhalaName": "cha", "description": "ච - Alpapraana Thaaluja (cha)"},
+        {"key": "C", "type": "consonant", "sinhalaName": "chha", "description": "ඡ - Mahapraana Thaaluja (chha)"},
+        {"key": "j", "type": "consonant", "sinhalaName": "ja", "description": "ජ - Alpapraana Thaaluja (ja)"},
+        {"key": "J", "type": "consonant", "sinhalaName": "jha", "description": "ඣ - Mahapraana Thaaluja (jha)"},
+        {"key": "z", "type": "consonant", "sinhalaName": "nya", "description": "ඤ - Thaaluja Naasikya (nya)"},
+        {"key": "Z", "type": "consonant", "sinhalaName": "gnha", "description": "ඥ - Gnha"},
+        {"key": "t", "type": "consonant", "sinhalaName": "tta", "description": "ට - Alpapraana Moordhaja (tta)"},
+        {"key": "T", "type": "consonant", "sinhalaName": "ttha", "description": "ඨ - Mahapraana Moordhaja (ttha)"},
+        {"key": "d", "type": "consonant", "sinhalaName": "dda", "description": "ඩ - Alpapraana Moordhaja (dda)"},
+        {"key": "D", "type": "consonant", "sinhalaName": "ddha", "description": "ඪ - Mahapraana Moordhaja (ddha)"},
+        {"key": "N", "type": "consonant", "sinhalaName": "nna", "description": "ණ - Moordhaja Naasikya (nna)"},
+        {"key": ";", "type": "consonant", "sinhalaName": "ta", "description": "ත - Alpapraana Danthaja (ta)"},
+        {"key": ":", "type": "consonant", "sinhalaName": "tha", "description": "ථ - Mahapraana Danthaja (tha)"},
+        {"key": "o", "type": "consonant", "sinhalaName": "da", "description": "ද - Alpapraana Danthaja (da)"},
+        {"key": "O", "type": "consonant", "sinhalaName": "dha", "description": "ධ - Mahapraana Danthaja (dha)"},
+        {"key": "n", "type": "consonant", "sinhalaName": "na", "description": "න - Danthaja Naasikya (na)"},
+        {"key": "p", "type": "consonant", "sinhalaName": "pa", "description": "ප - Alpapraana Oshtaja (pa)"},
+        {"key": "P", "type": "consonant", "sinhalaName": "pha", "description": "ඵ - Mahapraana Oshtaja (pha)"},
+        {"key": "b", "type": "consonant", "sinhalaName": "ba", "description": "බ - Alpapraana Oshtaja (ba)"},
+        {"key": "B", "type": "consonant", "sinhalaName": "bha", "description": "භ - Mahapraana Oshtaja (bha)"},
+        {"key": "m", "type": "consonant", "sinhalaName": "ma", "description": "ම - Oshtaja Naasikya (ma)"},
+        {"key": "M", "type": "consonant", "sinhalaName": "mba", "description": "ඹ - Mba (amba)"},
+        {"key": "h", "type": "consonant", "sinhalaName": "ha", "description": "හ - Ha"},
+        {"key": "l", "type": "consonant", "sinhalaName": "la", "description": "ල - La"},
+        {"key": "L", "type": "consonant", "sinhalaName": "lla", "description": "ළ - Lla (muurdhaja la)"},
+        {"key": "r", "type": "consonant", "sinhalaName": "ra", "description": "ර - Ra"},
+        {"key": "y", "type": "consonant", "sinhalaName": "ya", "description": "ය - Ya"},
+        {"key": "v", "type": "consonant", "sinhalaName": "va", "description": "ව - Va"},
+        {"key": "s", "type": "consonant", "sinhalaName": "sa", "description": "ස - Danthaja Sa"},
+        {"key": "w", "type": "consonant", "sinhalaName": "sha", "description": "ශ - Thaaluja Sha"},
+        {"key": "W", "type": "consonant", "sinhalaName": "shha", "description": "ෂ - Moordhaja Sha"},
+        {"key": "f", "type": "consonant", "sinhalaName": "fa", "description": "ෆ - Fa"},
+
+        {"key": "e", "type": "preBaseSign", "sinhalaName": "kombuva", "description": "ෙ - E-kombuva (left-side vowel sign, MUST be reordered before consonant)"},
+        {"key": "E", "type": "preBaseSign", "sinhalaName": "diga-kombuva", "description": "ේ - Diga kombuva (long E sign, MUST be reordered before consonant)"},
+
+        {"key": "a", "type": "postBaseSign", "sinhalaName": "aela-pilla", "description": "ා - Aela-pilla (aa sign, appears after consonant)"},
+        {"key": "A", "type": "postBaseSign", "sinhalaName": "ketti-aeda-pilla", "description": "ැ - Ketti aeda-pilla (ae sign) — KEY: Shift+A"},
+        {"key": "S", "type": "postBaseSign", "sinhalaName": "diga-aeda-pilla", "description": "ෑ - Diga aeda-pilla (long ae sign)"},
+        {"key": "i", "type": "postBaseSign", "sinhalaName": "is-pilla", "description": "ි - Is-pilla (i sign, papili)"},
+        {"key": "I", "type": "postBaseSign", "sinhalaName": "diga-is-pilla", "description": "ී - Diga is-pilla (long i sign, diga papili)"},
+        {"key": "q", "type": "postBaseSign", "sinhalaName": "paa-pilla", "description": "ු - Paa-pilla (u sign)"},
+        {"key": "Q", "type": "postBaseSign", "sinhalaName": "diga-paa-pilla", "description": "ූ - Diga paa-pilla (long u sign)"},
+        {"key": "R", "type": "postBaseSign", "sinhalaName": "gaetta-pilla", "description": "ෘ - Gaetta-pilla (ri sign)"},
+
+        {"key": "'", "type": "hal", "sinhalaName": "hal-kirima", "description": "් - Hal-kirima / Virama (vowel suppressor)"},
+
+        {"key": "u", "type": "independentVowel", "sinhalaName": "a", "description": "අ - Ayanna (a)"},
+        {"key": "U", "type": "independentVowel", "sinhalaName": "aa", "description": "ආ - Aayanna (aa)"},
+        {"key": "[", "type": "independentVowel", "sinhalaName": "ae", "description": "ඇ - Aeyanna (ae)"},
+        {"key": "{", "type": "independentVowel", "sinhalaName": "aae", "description": "ඈ - Aaeyanna (aae)"},
+        {"key": "]", "type": "independentVowel", "sinhalaName": "i", "description": "ඉ - Iyanna (i)"},
+        {"key": "}", "type": "independentVowel", "sinhalaName": "ii", "description": "ඊ - Iiyanna (ii)"},
+        {"key": "\\", "type": "independentVowel", "sinhalaName": "u", "description": "උ - Uyanna (u)"},
+        {"key": "|", "type": "independentVowel", "sinhalaName": "uu", "description": "ඌ - Uuyanna (uu)"},
+        {"key": "<", "type": "independentVowel", "sinhalaName": "e", "description": "එ - Eyanna (e)"},
+        {"key": ">", "type": "independentVowel", "sinhalaName": "ee", "description": "ඒ - Eeyanna (ee)"},
+        {"key": "H", "type": "independentVowel", "sinhalaName": "ai", "description": "ඓ - Aiyanna (ai)"},
+        {"key": "Y", "type": "independentVowel", "sinhalaName": "o", "description": "ඔ - Oyanna (o)"},
+        {"key": "V", "type": "independentVowel", "sinhalaName": "oo", "description": "ඕ - Ooyanna (oo)"},
+        {"key": "F", "type": "independentVowel", "sinhalaName": "au", "description": "ඖ - Auyanna (au)"},
+
+        {"key": "x", "type": "anusvara", "sinhalaName": "anusvara", "description": "ං - Anusvara (binduva)"},
+        {"key": "!", "type": "visarga", "sinhalaName": "visarga", "description": "ඃ - Visarga"},
+
+        {"key": "`", "type": "rakaransaya", "sinhalaName": "rakaransaya", "description": "Rakaransaya (rakaaransaya form, reordered before consonant)"},
+        {"key": "~", "type": "yansaya", "sinhalaName": "yansaya", "description": "Yansaya form"},
+
+        {"key": " ", "type": "space", "sinhalaName": "space", "description": "Space character"},
+        {"key": ".", "type": "punctuation", "sinhalaName": "period", "description": "Period / Full stop"},
+        {"key": ",", "type": "punctuation", "sinhalaName": "comma", "description": "Comma"},
+        {"key": "?", "type": "punctuation", "sinhalaName": "question", "description": "Question mark"},
+        {"key": "/", "type": "punctuation", "sinhalaName": "slash", "description": "Forward slash"},
+        {"key": "-", "type": "punctuation", "sinhalaName": "hyphen", "description": "Hyphen"},
+        {"key": "(", "type": "punctuation", "sinhalaName": "lparen", "description": "Left parenthesis"},
+        {"key": ")", "type": "punctuation", "sinhalaName": "rparen", "description": "Right parenthesis"},
+
+        {"key": "0", "type": "number", "sinhalaName": "zero", "description": "0"},
+        {"key": "1", "type": "number", "sinhalaName": "one", "description": "1"},
+        {"key": "2", "type": "number", "sinhalaName": "two", "description": "2"},
+        {"key": "3", "type": "number", "sinhalaName": "three", "description": "3"},
+        {"key": "4", "type": "number", "sinhalaName": "four", "description": "4"},
+        {"key": "5", "type": "number", "sinhalaName": "five", "description": "5"},
+        {"key": "6", "type": "number", "sinhalaName": "six", "description": "6"},
+        {"key": "7", "type": "number", "sinhalaName": "seven", "description": "7"},
+        {"key": "8", "type": "number", "sinhalaName": "eight", "description": "8"},
+        {"key": "9", "type": "number", "sinhalaName": "nine", "description": "9"}
+    ],
+    "splitVowels": [
+        {
+            "triggerKey": "&",
+            "leftPart": "e",
+            "rightPart": "a",
+            "description": "ො - O-kombuva (kombuva + aela-pilla wrapping consonant)"
+        },
+        {
+            "triggerKey": "*",
+            "leftPart": "E",
+            "rightPart": "a",
+            "description": "ෝ - Diga O-kombuva (diga-kombuva + aela-pilla wrapping consonant)"
+        },
+        {
+            "triggerKey": "^",
+            "leftPart": "e",
+            "rightPart": "A",
+            "description": "ෞ - Au-kombuva (kombuva + au-right wrapping consonant)"
+        }
+    ],
+    "conjuncts": [
+        {
+            "inputSequence": ["k", "'", "w"],
+            "outputChar": "@",
+            "description": "ක්ෂ - Ksha conjunct (ka + hal + sha)"
+        },
+        {
+            "inputSequence": [";", "'", ";"],
+            "outputChar": "#",
+            "description": "ත්ත - Ththa conjunct (ta + hal + ta)"
+        },
+        {
+            "inputSequence": ["n", "'", "o"],
+            "outputChar": "$",
+            "description": "න්ද - Nda conjunct (na + hal + da)"
+        },
+        {
+            "inputSequence": ["n", "'", "n"],
+            "outputChar": "%",
+            "description": "න්න - Nna conjunct (na + hal + na)"
+        }
+    ]
+}

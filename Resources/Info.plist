@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Bundle Identity -->
+    <key>CFBundleIdentifier</key>
+    <string>com.sinhala.inputmethod.fminput</string>
+    <key>CFBundleName</key>
+    <string>SinhalaFMInput</string>
+    <key>CFBundleDisplayName</key>
+    <string>Sinhala FM Input</string>
+    <key>CFBundleExecutable</key>
+    <string>SinhalaFMInput</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <!-- Version -->
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+
+    <!-- Input Method Kit Configuration -->
+    <!-- CRITICAL: InputMethodConnectionName must match the IMKServer init name -->
+    <key>InputMethodConnectionName</key>
+    <string>com.sinhala.inputmethod.fminput_Connection</string>
+
+    <!-- CRITICAL: This tells IMK which class handles input events -->
+    <key>InputMethodServerControllerClass</key>
+    <string>SinhalaFMInput.SinhalaInputController</string>
+
+    <!-- Character repertoire supported by this input method -->
+    <key>tsInputMethodCharacterRepertoireKey</key>
+    <array>
+        <string>Sinh</string>
+        <string>Latn</string>
+    </array>
+
+    <!-- Icon for the input method in the menu bar -->
+    <key>tsInputMethodIconFileKey</key>
+    <string>SinhalaFM.tiff</string>
+
+    <!-- CRITICAL: Input methods are background-only processes -->
+    <key>LSBackgroundOnly</key>
+    <true/>
+
+    <!-- System Requirements -->
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+
+    <!-- Copyright -->
+    <key>NSHumanReadableCopyright</key>
+    <string>Sinhala FM Font Input Method - Legacy font reordering utility</string>
+
+    <!-- Supported Platforms -->
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
+
+    <!-- Principal Class -->
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+</dict>
+</plist>
