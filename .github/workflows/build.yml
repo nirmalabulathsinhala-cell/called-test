@@ -1,0 +1,46 @@
+name: Build Sinhala FM Input Method
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build macOS Input Method
+    runs-on: macos-14
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Show Swift version
+        run: swiftc --version
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Build Input Method
+        run: |
+          chmod +x Scripts/build.sh
+          ./Scripts/build.sh --universal
+
+      - name: Verify build output
+        run: |
+          echo "=== App Bundle Contents ==="
+          find build/SinhalaFMInput.app -type f
+          echo ""
+          echo "=== Binary Info ==="
+          file build/SinhalaFMInput.app/Contents/MacOS/SinhalaFMInput
+          echo ""
+          echo "=== Bundle Size ==="
+          du -sh build/SinhalaFMInput.app
+
+      - name: Upload built app
+        uses: actions/upload-artifact@v4
+        with:
+          name: SinhalaFMInput-macOS
+          path: build/SinhalaFMInput.app
+          retention-days: 90
